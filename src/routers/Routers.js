@@ -8,7 +8,7 @@ import Cart from "../pages/Cart";
 import ProductDetails from "../pages/ProductDetails";
 import Checkout from "../pages/Checkout";
 import Login from "../pages/Login";
-import Sigup from "../pages/Sigup";
+import Signup from "../pages/Signup";
 
 
 const Routers = () => {
@@ -21,7 +21,7 @@ const Routers = () => {
       <Route path='cart' element={<Cart />} />
       <Route path='checkout' element={<Checkout />} />
       <Route path='login' element={<Login />} />
-      <Route path='sigup' element={<Sigup />} />
+      <Route path='signup' element={<Signup />} />
     </Routes>
   )
 }
