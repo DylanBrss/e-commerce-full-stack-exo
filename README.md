@@ -1,6 +1,8 @@
-### Vidéo tuto
-**https://www.youtube.com/watch?v=s8sp3KhBrGI**
-*Timer : 49:35*
+### Vidéo tuto by *Coding With Muhib*
+**Part 1 : https://www.youtube.com/watch?v=yZDo5IPATOE**
+**Part 2 : https://www.youtube.com/watch?v=mB8ajdvRnC0**
+**Part 3 : https://www.youtube.com/watch?v=yZDo5IPATOE**
+**Part 4 : https://www.youtube.com/watch?v=s8sp3KhBrGI**
 
 # Getting Started with Create React App
 

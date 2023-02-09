@@ -12,7 +12,11 @@ const admin__nav = [
         path: '/dashboard'
     },
     {
-        display: 'All-Prodcuts',
+        display: 'Add Products',
+        path: '/dashboard/add-product'
+    },
+    {
+        display: 'All Products',
         path: '/dashboard/all-products'
     },
     {
@@ -36,7 +40,7 @@ const AdminNav = () => {
                     <Container>
                         <div className="admin__nav-wrapper-top">
                             <div className="logo">
-                                <h2>Multimart</h2>
+                                <h2>E-Commerce</h2>
                             </div>
 
                             <div className="search__box">
@@ -47,7 +51,7 @@ const AdminNav = () => {
                             <div className="admin__nav-top-right">
                                 <span><i className="ri-notification-3-line"></i></span>
                                 <span><i className="ri-settings-2-line"></i></span>
-                                <img src={currentUser.photoURL} alt="photoUser" />
+                                <img src={currentUser && currentUser.photoURL} alt="photoUser" />
                             </div>
                         </div>
                     </Container>
